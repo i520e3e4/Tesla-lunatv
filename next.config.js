@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 const nextConfig = {
-  output: 'standalone',
+  // output: 'standalone', // Cloudflare Pages incompatible
   eslint: {
     dirs: ['src'],
   },
